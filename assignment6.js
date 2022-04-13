@@ -1,4 +1,4 @@
-// assignment 5 for date 28
+// assignment 6 for date 28
 // assignment no. 1 
 // Program to demonstrate Object destructuring in nested objects
 
