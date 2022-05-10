@@ -1,5 +1,21 @@
 //22 th assignment (4th may )(intro to oops ).js
 
+// 1. Write a program to define a class “Shape”. This class will have the properties
+// length, breadth and height. Create a parameterised constructor that takes input
+// as length, breadth and height. Define a method area() inside the class and it
+// should return value as length*breadth*height.Create an Object of shape class and
+// call the area() method to fetch the area.
+// 2. Write a program to define a class “Shape”. This class will have the private
+// properties length, breadth and height. Create setter and getter methods for all
+// the private properties. Define a method area() inside the class and it should return
+// value as length*breadth*height.Create an Object of shape class and call the area()
+// method to fetch the area.
+// 3. Write a program that contains Cube class and Circle class. These classes should
+// inherit the Shape class. Set the properties value if required using constructor and
+// override the area() method (if required) to return the area of Cube and Circle 
+
+
+
 
 // question 1 
 
