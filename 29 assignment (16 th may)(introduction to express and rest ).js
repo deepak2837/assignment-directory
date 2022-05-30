@@ -89,14 +89,33 @@ app.delete('/users/:id', (req, res) => {
     
     
 // adding a object 
-app.post("/user",(req,res)=>{
-   var user1 = req.body
 
-   users.push(user1)
-   res.send('User is added to the database').status(200);
+app.post('/user', (req, res) => {
+
+   const user = req.body;
+   
+   for(i in users){
+   
+   if(users[i]["id"] === user.id){
+   
+   res.send('User cant be added to the database').status(400);
+   
+   return;
+   
+   }
+
+   }
+   
+   users.push(user);
+   
+   res.send('User is added').status(200);
+   
+   });
+   
 
 
-})
+
+
 app.listen(8080)
 
 
